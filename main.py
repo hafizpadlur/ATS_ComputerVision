@@ -44,7 +44,7 @@ csv_path = os.path.join(path, "emnist-letters-train.csv")
 data = pd.read_csv(
     csv_path,
     header=None,
-    nrows=7000,   # beda dari default supaya tidak sama
+    nrows=7000,   
     dtype=np.uint8
 )
 
